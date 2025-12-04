@@ -55,6 +55,7 @@ Once a roll of paper can be accessed by a forklift, it can be removed. Once a ro
 Starting with the same example as above, here is one way you could remove as many rolls of paper as possible, using highlighted @ to indicate that a roll of paper is about to be removed, and using x to indicate that a roll of paper was just removed:
 
 Initial state:
+
 ```text
 ..@@.@@@@.
 @@@.@.@.@@
