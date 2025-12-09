@@ -1,5 +1,7 @@
 # --- Day 9: Movie Theater ---
 
+## --- Part One ---
+
 You slide down the firepole in the corner of the playground and land in the North Pole base movie theater!
 
 The movie theater has a big tile floor with an interesting pattern. Elves here are redecorating the theater by switching out some of the square tiles in the big grid they form. Some of the tiles are red; the Elves would like to find the largest rectangle that uses red tiles for two of its opposite corners. They even have a list of where the red tiles are located in the grid (your puzzle input).
@@ -90,3 +92,85 @@ Ultimately, the largest rectangle you can make in this example has area 50. One 
 ```
 
 Using two red tiles as opposite corners, what is the largest area of any rectangle you can make?
+
+## --- Part Two ---
+
+The Elves just remembered: they can only switch out tiles that are red or green. So, your rectangle can only include red or green tiles.
+
+In your list, every red tile is connected to the red tile before and after it by a straight line of green tiles. The list wraps, so the first red tile is also connected to the last red tile. Tiles that are adjacent in your list will always be on either the same row or the same column.
+
+Using the same example as before, the tiles marked X would be green:
+
+```text
+..............
+.......#XXX#..
+.......X...X..
+..#XXXX#...X..
+..X........X..
+..#XXXXXX#.X..
+.........X.X..
+.........#X#..
+..............
+```
+
+In addition, all of the tiles inside this loop of red and green tiles are also green. So, in this example, these are the green tiles:
+
+```text
+..............
+.......#XXX#..
+.......XXXXX..
+..#XXXX#XXXX..
+..XXXXXXXXXX..
+..#XXXXXX#XX..
+.........XXX..
+.........#X#..
+..............
+```
+
+The remaining tiles are never red nor green.
+
+The rectangle you choose still must have red tiles in opposite corners, but any other tiles it includes must now be red or green. This significantly limits your options.
+
+For example, you could make a rectangle out of red and green tiles with an area of 15 between 7,3 and 11,1:
+
+```text
+..............
+.......OOOOO..
+.......OOOOO..
+..#XXXXOOOOO..
+..XXXXXXXXXX..
+..#XXXXXX#XX..
+.........XXX..
+.........#X#..
+..............
+```
+
+Or, you could make a thin rectangle with an area of 3 between 9,7 and 9,5:
+
+```text
+..............
+.......#XXX#..
+.......XXXXX..
+..#XXXX#XXXX..
+..XXXXXXXXXX..
+..#XXXXXXOXX..
+.........OXX..
+.........OX#..
+..............
+```
+
+The largest rectangle you can make in this example using only red and green tiles has area 24. One way to do this is between 9,5 and 2,3:
+
+```text
+..............
+.......#XXX#..
+.......XXXXX..
+..OOOOOOOOXX..
+..OOOOOOOOXX..
+..OOOOOOOOXX..
+.........XXX..
+.........#X#..
+..............
+```
+
+Using two red tiles as opposite corners, what is the largest area of any rectangle you can make using only red and green tiles?
