@@ -25,11 +25,11 @@ Each line gives the name of a device followed by a list of the devices to which 
 
 The Elves are pretty sure that the issue isn't due to any specific device, but rather that the issue is triggered by data following some specific path through the devices. Data only ever flows from a device through its outputs; it can't flow backwards.
 
-After dividing up the work, the Elves would like you to focus on the devices starting with the one next to you (an Elf hastily attaches a label which just says you) and ending with the main output to the reactor (which is the device with the label `out`).
+After dividing up the work, the Elves would like you to focus on the devices starting with the one next to `you` (an Elf hastily attaches a label which just says `you`) and ending with the main output to the reactor (which is the device with the label `out`).
 
-To help the Elves figure `out` which path is causing the issue, they need you to find every path from you to `out`.
+To help the Elves figure `out` which path is causing the issue, they need `you` to find every path from `you` to `out`.
 
-In this example, these are all of the paths from you to `out`:
+In this example, these are all of the paths from `you` to `out`:
 
 - Data could take the connection from `you` to `bbb`, then from `bbb` to `ddd`, then from `ddd` to `ggg`, then from `ggg` to `out`.
 - Data could take the connection to `bbb`, then to `eee`, then to `out`.
@@ -37,6 +37,6 @@ In this example, these are all of the paths from you to `out`:
 - Data could go to `ccc`, then `eee`, then `out`.
 - Data could go to `ccc`, then `fff`, then `out`.
 
-In total, there are 5 different paths leading from you to `out`.
+In total, there are 5 different paths leading from `you` to `out`.
 
-How many different paths lead from you to `out`?
+How many different paths lead from `you` to `out`?
