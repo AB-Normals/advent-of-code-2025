@@ -8,15 +8,15 @@ A brief fall later, you find yourself in a garbage smasher. Unfortunately, the d
 
 As you try to find a way out, you are approached by a family of cephalopods! They're pretty sure they can get the door open, but it will take some time. While you wait, they're curious if you can help the youngest cephalopod with her [math homework](https://adventofcode.com/2021/day/18).
 
-Cephalopod math doesn't look that different from normal math. The math worksheet (your puzzle input) consists of a list of **problems**; each problem has a group of numbers that need to be either **added** (+) or **multiplied** (*) together.
+Cephalopod math doesn't look that different from normal math. The math worksheet (your puzzle input) consists of a list of **problems**; each problem has a group of numbers that need to be either **added** (+) or **multiplied** (\*) together.
 
 However, the problems are arranged a little strangely; they seem to be presented next to each other in a very long horizontal list. For example:
 
 ```text
-123 328  51 64 
- 45 64  387 23 
+123 328  51 64
+ 45 64  387 23
   6 98  215 314
-*   +   *   +  
+*   +   *   +
 ```
 
 Each problem's numbers are arranged vertically; at the bottom of the problem is the symbol for the operation that needs to be performed. Problems are separated by a full column of only spaces. The left/right alignment of numbers within each problem can be ignored.
@@ -43,10 +43,10 @@ Cephalopod math is written **right-to-left in columns**. Each number is given in
 Here's the example worksheet again:
 
 ```text
-123 328  51 64 
- 45 64  387 23 
+123 328  51 64
+ 45 64  387 23
   6 98  215 314
-*   +   *   +  
+*   +   *   +
 ```
 
 Reading the problems right-to-left one column at a time, the problems are now quite different:
