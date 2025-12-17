@@ -106,3 +106,13 @@ In fact, many of these new arrivals look familiar: they're the Elves you helped 
 Before any of them can find a ladder, a particularly large Christmas tree suddenly flashes brightly when a large star magically appears above it! As your eyes readjust, you think you notice a portly man with a white beard disappear into the crowd.
 
 You go look for a ladder; only 23 stars to go.
+
+## --- The End ---
+
+You help the Elves decorate the Christmas trees with all 24 stars! Now, the Elves will have plenty of time to prepare for Christmas, and you get a well-deserved break.
+
+Congratulations! You've finished every puzzle in Advent of Code 2025! I hope you had as much fun solving them as I had making them for you. I'd love to hear about your adventure; you can get in touch with me via contact info on my website or through Bluesky or Mastodon.
+
+If you'd like to see more things like this in the future, please consider supporting Advent of Code and sharing it with others.
+
+I've highlighted the easter eggs in each puzzle, just in case you missed any. Hover your mouse over them, and the easter egg will appear.
