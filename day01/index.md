@@ -79,7 +79,7 @@ You're sure that's the right password, but the door won't open. You knock, but n
 
 As you're rolling the snowballs for your snowman, you find another security document that must have fallen into the snow:
 
-"Due to newer security protocols, please use password method 0x434C49434B until further notice."
+"Due to newer security protocols, please use password method [0x434C49434B](../ee/easter_eggs.md) until further notice."
 
 You remember from the training seminar that "method 0x434C49434B" means you're actually supposed to count the number of times any click causes the dial to point at `0`, regardless of whether it happens during a rotation or at the end of one.
 

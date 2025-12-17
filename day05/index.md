@@ -8,7 +8,7 @@ You can hear a commotion coming from the kitchen. "At this rate, we won't have a
 
 "If only we hadn't switched to the new inventory management system right before Christmas!" another Elf exclaims. You ask what's going on.
 
-The Elves in the kitchen explain the situation: because of their complicated new inventory management system, they can't figure out which of their ingredients are fresh and which are spoiled. When you ask how it works, they give you a copy of their database (your puzzle input).
+The Elves in the kitchen explain the situation: because of their complicated new inventory management system, they can't figure out which of their ingredients are fresh and which are [spoiled](../ee/easter_eggs.md). When you ask how it works, they give you a copy of their database (your puzzle input).
 
 The database operates on ingredient IDs. It consists of a list of fresh ingredient ID ranges, a blank line, and a list of available ingredient IDs. For example:
 

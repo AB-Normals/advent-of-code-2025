@@ -6,7 +6,7 @@ You descend a short staircase, enter the surprisingly vast lobby, and are quickl
 
 "Sorry about that," an Elf apologizes as she tinkers with a nearby control panel. "Some kind of electrical surge seems to have fried them. I'll try to get them online soon."
 
-You explain your need to get further underground. "Well, you could at least take the escalator down to the printing department, not that you'd get much further than that without the elevators working. That is, you could if the escalator weren't also offline."
+You explain your need to get further underground. "Well, you could at least take the escalator down to the printing department, not that you'd get much further than that without the elevators working. That is, you could if the escalator weren't also [offline](../ee/easter_eggs.md)."
 
 "But, don't worry! It's not fried; it just needs power. Maybe you can get it running while I keep working on the elevators."
 
